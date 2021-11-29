@@ -1,0 +1,25 @@
+{
+  "application.js": "/packs/js/application-e421b4aa3f716bebdab1.js",
+  "application.js.map": "/packs/js/application-e421b4aa3f716bebdab1.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-e421b4aa3f716bebdab1.js"
+      ],
+      "js.map": [
+        "/packs/js/application-e421b4aa3f716bebdab1.js.map"
+      ]
+    },
+    "main": {
+      "js": [
+        "/packs/js/main-d03161075163d0d7c49a.js"
+      ],
+      "js.map": [
+        "/packs/js/main-d03161075163d0d7c49a.js.map"
+      ]
+    }
+  },
+  "main.js": "/packs/js/main-d03161075163d0d7c49a.js",
+  "main.js.map": "/packs/js/main-d03161075163d0d7c49a.js.map",
+  "media/images/zendesk_logo.png": "/packs/media/images/zendesk_logo-06df267c.png"
+}

@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TicketDetails /> should render initial elements when data is not loaded 1`] = `
+Array [
+  <React.Fragment />,
+]
+`;
+
+exports[`<TicketDetails /> should render updated elements when data is loaded 1`] = `
+Array [
+  <Modal
+    animation={true}
+    aria-labelledby="contained-modal-title-vcenter"
+    autoFocus={true}
+    backdrop={true}
+    centered={true}
+    dialogAs={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    enforceFocus={true}
+    id={12}
+    keyboard={true}
+    restoreFocus={true}
+    show={true}
+    size="lg"
+  >
+    <ModalHeader
+      closeButton={false}
+      closeLabel="Close"
+    >
+      <ModalTitle
+        id="contained-modal-title-vcenter"
+      >
+        12
+        .  
+        tempor aliquip sint dolore incididunt
+         
+        <Badge
+          bg="danger"
+          pill={false}
+          text="light"
+        >
+          open
+        </Badge>
+      </ModalTitle>
+      <br />
+      <p
+        className="float-right via"
+      >
+        via: 
+        API
+      </p>
+    </ModalHeader>
+    <ModalBody>
+      <h5>
+        Description
+      </h5>
+      <p
+        className="description"
+      >
+        Amet sint ea minim excepteur amet. Eiusmod duis ad ea ad aliquip occaecat ea voluptate sunt cillum duis aute. Esse in duis tempor et. Est duis nulla irure ullamco amet sit esse Lorem eu aliqua ullamco sunt. In sint dolore id eu ea.
+
+Irure proident nulla deserunt officia laboris culpa. Qui est adipisicing elit tempor cupidatat minim laborum ea est nostrud nulla mollit id dolore. Aute amet amet deserunt incididunt magna ipsum exercitation nostrud incididunt ea qui anim. Adipisicing irure commodo consectetur Lorem ad excepteur nulla eiusmod aliquip irure occaecat. Id sint fugiat proident Lorem est minim ea sint irure. Veniam sint ex minim duis est.
+      </p>
+      <StarRatingComponent
+        editing={false}
+        emptyStarColor="#333"
+        name="rate1"
+        starColor="#ffb400"
+        starCount={5}
+        value={null}
+      />
+      <br />
+      <Badge
+        bg="secondary"
+        pill={true}
+        text="light"
+      >
+        ad
+         
+      </Badge>
+      <Badge
+        bg="secondary"
+        pill={true}
+        text="light"
+      >
+        minim
+         
+      </Badge>
+      <Badge
+        bg="secondary"
+        pill={true}
+        text="light"
+      >
+        non
+         
+      </Badge>
+      <Info />
+    </ModalBody>
+    <ModalFooter>
+      <p
+        className="mr-auto"
+      >
+        Created On: 
+        November 19, 2021 10:22 PM
+      </p>
+      <Button
+        active={false}
+        disabled={false}
+        variant="primary"
+      >
+        Close
+      </Button>
+    </ModalFooter>
+  </Modal>,
+]
+`;

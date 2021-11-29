@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should renders initial <Home /> components 1`] = `
+Array [
+  <Container
+    className="p-4"
+    fluid={false}
+  >
+    <Container
+      className="p-5 mb-4 bg-light rounded-3"
+      fluid={false}
+    >
+      <Container
+        fluid={false}
+      >
+        <Row
+          className="justify-content-md-center"
+        >
+          <Image
+            className="logo"
+            fluid={false}
+            rounded={true}
+            roundedCircle={false}
+            src="test-file-stub"
+            thumbnail={false}
+          />
+        </Row>
+      </Container>
+      <br />
+      <h5
+        className="header"
+      >
+        Welcome to the Zendesk Coding Challenge - Ticket Viewer
+      </h5>
+      <p
+        className=""
+      >
+        <u>
+          Technologies
+        </u>
+         
+        <br />
+        Frontend-
+        <b>
+          React
+        </b>
+        <br />
+         Backend- 
+        <b>
+          Ruby on Rails
+        </b>
+        <br />
+         VCS- 
+        <b>
+          Github
+        </b>
+        <br />
+         Responsive- 
+        <b>
+          Bootstrap
+        </b>
+         
+      </p>
+    </Container>
+  </Container>,
+]
+`;

@@ -1,0 +1,374 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TicketList /> should render initial elements when data is not loaded 1`] = `
+Array [
+  <Container
+    className="header"
+    fluid={false}
+  >
+    <Button
+      active={false}
+      disabled={true}
+      variant="primary"
+    >
+      <Spinner
+        animation="grow"
+        aria-hidden="true"
+        as="span"
+        role="status"
+        size="sm"
+      />
+       
+      Loading...
+    </Button>
+  </Container>,
+]
+`;
+
+exports[`<TicketList /> should render updated elements when data is loaded 1`] = `
+Array [
+  <React.Fragment>
+    <Container
+      fluid={false}
+    >
+      <BootstrapTableContainer
+        bootstrap4={true}
+        columns={
+          Array [
+            Object {
+              "dataField": "id",
+              "sort": true,
+              "text": "ID",
+            },
+            Object {
+              "dataField": "subject",
+              "sort": true,
+              "text": "Subject",
+            },
+            Object {
+              "dataField": "status",
+              "sort": true,
+              "text": "Status",
+            },
+            Object {
+              "dataField": "tags",
+              "formatter": [Function],
+              "sort": true,
+              "text": "Tags",
+            },
+            Object {
+              "dataField": "created_at",
+              "formatter": [Function],
+              "sort": true,
+              "text": "Created",
+            },
+            Object {
+              "dataField": "updated_at",
+              "formatter": [Function],
+              "sort": true,
+              "text": "Updated",
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "allow_attachments": true,
+              "allow_channelback": false,
+              "assignee_id": 1523617346642,
+              "brand_id": 1900000502145,
+              "collaborator_ids": Array [],
+              "created_at": "2021-11-20T05:22:37Z",
+              "custom_fields": Array [],
+              "description": "Hi there,
+
+I’m sending an email because I’m having a problem setting up your new product. Can you help me troubleshoot?
+
+Thanks,
+ The Customer
+
+",
+              "due_at": null,
+              "email_cc_ids": Array [],
+              "external_id": null,
+              "fields": Array [],
+              "follower_ids": Array [],
+              "followup_ids": Array [],
+              "forum_topic_id": null,
+              "group_id": 1900001551265,
+              "has_incidents": false,
+              "id": 1,
+              "is_public": true,
+              "organization_id": null,
+              "priority": "normal",
+              "problem_id": null,
+              "raw_subject": "Sample ticket: Meet the ticket",
+              "recipient": null,
+              "requester_id": 1909844122125,
+              "satisfaction_rating": null,
+              "sharing_agreement_ids": Array [],
+              "status": "open",
+              "subject": "Sample ticket: Meet the ticket",
+              "submitter_id": 1523617346642,
+              "tags": Array [
+                "sample",
+                "support",
+                "zendesk",
+              ],
+              "ticket_form_id": 1900000972265,
+              "type": "incident",
+              "updated_at": "2021-11-20T05:22:37Z",
+              "url": "https://zccstudentskartik.zendesk.com/api/v2/tickets/1.json",
+              "via": Object {
+                "channel": "sample_ticket",
+                "source": Object {
+                  "from": Object {},
+                  "rel": null,
+                  "to": Object {},
+                },
+              },
+            },
+            Object {
+              "allow_attachments": true,
+              "allow_channelback": false,
+              "assignee_id": 1523617346642,
+              "brand_id": 1900000502145,
+              "collaborator_ids": Array [],
+              "created_at": "2021-11-20T06:22:33Z",
+              "custom_fields": Array [],
+              "description": "Aute ex sunt culpa ex ea esse sint cupidatat aliqua ex consequat sit reprehenderit. Velit labore proident quis culpa ad duis adipisicing laboris voluptate velit incididunt minim consequat nulla. Laboris adipisicing reprehenderit minim tempor officia ullamco occaecat ut laborum.
+
+Aliquip velit adipisicing exercitation irure aliqua qui. Commodo eu laborum cillum nostrud eu. Mollit duis qui non ea deserunt est est et officia ut excepteur Lorem pariatur deserunt.",
+              "due_at": null,
+              "email_cc_ids": Array [],
+              "external_id": null,
+              "fields": Array [],
+              "follower_ids": Array [],
+              "followup_ids": Array [],
+              "forum_topic_id": null,
+              "group_id": 1900001551265,
+              "has_incidents": false,
+              "id": 2,
+              "is_public": true,
+              "organization_id": 1900146445865,
+              "priority": null,
+              "problem_id": null,
+              "raw_subject": "velit eiusmod reprehenderit officia cupidatat",
+              "recipient": null,
+              "requester_id": 1523617346642,
+              "satisfaction_rating": null,
+              "sharing_agreement_ids": Array [],
+              "status": "open",
+              "subject": "velit eiusmod reprehenderit officia cupidatat",
+              "submitter_id": 1523617346642,
+              "tags": Array [
+                "est",
+                "incididunt",
+                "nisi",
+              ],
+              "ticket_form_id": 1900000972265,
+              "type": null,
+              "updated_at": "2021-11-20T06:22:33Z",
+              "url": "https://zccstudentskartik.zendesk.com/api/v2/tickets/2.json",
+              "via": Object {
+                "channel": "api",
+                "source": Object {
+                  "from": Object {},
+                  "rel": null,
+                  "to": Object {},
+                },
+              },
+            },
+            Object {
+              "allow_attachments": true,
+              "allow_channelback": false,
+              "assignee_id": 1523617346642,
+              "brand_id": 1900000502145,
+              "collaborator_ids": Array [],
+              "created_at": "2021-11-20T06:22:34Z",
+              "custom_fields": Array [],
+              "description": "Exercitation amet in laborum minim. Nulla et veniam laboris dolore fugiat aliqua et sit mollit. Dolor proident nulla mollit culpa in officia pariatur officia magna eu commodo duis.
+
+Aliqua reprehenderit aute qui voluptate dolor deserunt enim aute tempor ad dolor fugiat. Mollit aliquip elit aliqua eiusmod. Ex et anim non exercitation consequat elit dolore excepteur. Aliqua reprehenderit non culpa sit consequat cupidatat elit.",
+              "due_at": null,
+              "email_cc_ids": Array [],
+              "external_id": null,
+              "fields": Array [],
+              "follower_ids": Array [],
+              "followup_ids": Array [],
+              "forum_topic_id": null,
+              "group_id": 1900001551265,
+              "has_incidents": false,
+              "id": 3,
+              "is_public": true,
+              "organization_id": 1900146445865,
+              "priority": null,
+              "problem_id": null,
+              "raw_subject": "excepteur laborum ex occaecat Lorem",
+              "recipient": null,
+              "requester_id": 1523617346642,
+              "satisfaction_rating": null,
+              "sharing_agreement_ids": Array [],
+              "status": "open",
+              "subject": "excepteur laborum ex occaecat Lorem",
+              "submitter_id": 1523617346642,
+              "tags": Array [
+                "amet",
+                "labore",
+                "voluptate",
+              ],
+              "ticket_form_id": 1900000972265,
+              "type": null,
+              "updated_at": "2021-11-20T06:22:34Z",
+              "url": "https://zccstudentskartik.zendesk.com/api/v2/tickets/3.json",
+              "via": Object {
+                "channel": "api",
+                "source": Object {
+                  "from": Object {},
+                  "rel": null,
+                  "to": Object {},
+                },
+              },
+            },
+            Object {
+              "allow_attachments": true,
+              "allow_channelback": false,
+              "assignee_id": 1523617346642,
+              "brand_id": 1900000502145,
+              "collaborator_ids": Array [],
+              "created_at": "2021-11-20T06:22:34Z",
+              "custom_fields": Array [],
+              "description": "Sunt incididunt officia proident elit anim ullamco reprehenderit ut. Aliqua sint amet aliquip cillum minim magna consequat excepteur fugiat exercitation est exercitation. Adipisicing occaecat nisi aliqua exercitation.
+
+Aute Lorem aute tempor sunt mollit dolor in consequat non cillum irure reprehenderit. Nulla deserunt qui aliquip officia duis incididunt et est velit nulla irure in fugiat in. Deserunt proident est in dolore culpa mollit exercitation ea anim consequat incididunt. Mollit et occaecat ullamco ut id incididunt laboris occaecat qui.",
+              "due_at": null,
+              "email_cc_ids": Array [],
+              "external_id": null,
+              "fields": Array [],
+              "follower_ids": Array [],
+              "followup_ids": Array [],
+              "forum_topic_id": null,
+              "group_id": 1900001551265,
+              "has_incidents": false,
+              "id": 4,
+              "is_public": true,
+              "organization_id": 1900146445865,
+              "priority": null,
+              "problem_id": null,
+              "raw_subject": "ad sunt qui aute ullamco",
+              "recipient": null,
+              "requester_id": 1523617346642,
+              "satisfaction_rating": null,
+              "sharing_agreement_ids": Array [],
+              "status": "open",
+              "subject": "ad sunt qui aute ullamco",
+              "submitter_id": 1523617346642,
+              "tags": Array [
+                "laborum",
+                "mollit",
+                "proident",
+              ],
+              "ticket_form_id": 1900000972265,
+              "type": null,
+              "updated_at": "2021-11-20T06:22:34Z",
+              "url": "https://zccstudentskartik.zendesk.com/api/v2/tickets/4.json",
+              "via": Object {
+                "channel": "api",
+                "source": Object {
+                  "from": Object {},
+                  "rel": null,
+                  "to": Object {},
+                },
+              },
+            },
+            Object {
+              "allow_attachments": true,
+              "allow_channelback": false,
+              "assignee_id": 1523617346642,
+              "brand_id": 1900000502145,
+              "collaborator_ids": Array [],
+              "created_at": "2021-11-20T06:22:35Z",
+              "custom_fields": Array [],
+              "description": "Pariatur voluptate laborum voluptate sunt ad magna exercitation nulla. In in Lorem minim dolor laboris reprehenderit ad Lorem. Cupidatat laborum qui mollit nostrud magna ullamco. Tempor nisi ex ipsum fugiat dolor proident qui consectetur anim sunt. Dolore consectetur in ex esse et aliqua fugiat enim Lorem ea Lorem incididunt. Non amet elit pariatur commodo labore officia esse anim. In do mollit commodo nulla ullamco culpa cillum incididunt.
+
+Et nostrud aute fugiat voluptate tempor ad labore in elit et sunt. Enim quis nulla eu ut sit. Pariatur irure officia occaecat non dolor est excepteur anim incididunt commodo ea cupidatat minim excepteur. Cillum proident tempor laborum amet est ipsum ipsum aliqua sit sunt reprehenderit fugiat aliqua ea.",
+              "due_at": null,
+              "email_cc_ids": Array [],
+              "external_id": null,
+              "fields": Array [],
+              "follower_ids": Array [],
+              "followup_ids": Array [],
+              "forum_topic_id": null,
+              "group_id": 1900001551265,
+              "has_incidents": false,
+              "id": 5,
+              "is_public": true,
+              "organization_id": 1900146445865,
+              "priority": null,
+              "problem_id": null,
+              "raw_subject": "aliquip mollit quis laborum incididunt",
+              "recipient": null,
+              "requester_id": 1523617346642,
+              "satisfaction_rating": null,
+              "sharing_agreement_ids": Array [],
+              "status": "open",
+              "subject": "aliquip mollit quis laborum incididunt",
+              "submitter_id": 1523617346642,
+              "tags": Array [
+                "consectetur",
+                "mollit",
+                "sit",
+              ],
+              "ticket_form_id": 1900000972265,
+              "type": null,
+              "updated_at": "2021-11-20T06:22:35Z",
+              "url": "https://zccstudentskartik.zendesk.com/api/v2/tickets/5.json",
+              "via": Object {
+                "channel": "api",
+                "source": Object {
+                  "from": Object {},
+                  "rel": null,
+                  "to": Object {},
+                },
+              },
+            },
+          ]
+        }
+        hover={true}
+        keyField="id"
+        pagination={
+          Object {
+            "createContext": [Function],
+            "options": Object {
+              "sizePerPage": 25,
+              "sizePerPageList": Array [
+                Object {
+                  "text": "5",
+                  "value": 5,
+                },
+                Object {
+                  "text": "15",
+                  "value": 15,
+                },
+                Object {
+                  "text": "25",
+                  "value": 25,
+                },
+                Object {
+                  "text": "All",
+                  "value": 5,
+                },
+              ],
+            },
+          }
+        }
+        rowEvents={
+          Object {
+            "onClick": [Function],
+          }
+        }
+      />
+    </Container>
+  </React.Fragment>,
+]
+`;
